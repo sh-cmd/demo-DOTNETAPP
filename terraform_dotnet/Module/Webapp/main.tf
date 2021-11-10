@@ -1,5 +1,5 @@
 resource "azurerm_app_service_plan" "example" {
-  name  = var.app_name
+  name  = var.azurerm_app_service_plan
   location  = var.location
   resource_group_name = var.rg_name
   kind = "Windows"
