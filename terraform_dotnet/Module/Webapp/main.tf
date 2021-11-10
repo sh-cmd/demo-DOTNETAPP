@@ -22,7 +22,7 @@ resource "azurerm_app_service" "example" {
     scm_type                 = "GitHub"
   }
   source_control {
-    repo_url = "https://github.com/sh-cmd/demo-DOTNETAPP.git"
+    repo_url = "https://github.com/sh-cmd/demo-DOTNETAPP"
     branch = "master"
   }
 
