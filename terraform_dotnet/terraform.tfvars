@@ -1,4 +1,4 @@
 rg_name = "dotnet"
 location = "northeurope"
-app_name = "giitdotnetkaholo1"
-appservicename = "Webappforpractise123"
+azurerm_app_service_plan = "giitdotnetkaholo"
+appservicename = "giitdotnetkaholo1"
