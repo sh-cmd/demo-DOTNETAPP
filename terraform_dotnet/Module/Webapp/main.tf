@@ -21,5 +21,8 @@ resource "azurerm_app_service" "example" {
     dotnet_framework_version = "v5.0"
     scm_type                 = "GitHub"
   }
+  source_control {
+    repo_url = "https://github.com/sh-cmd/demo-DOTNETAPP.git"
+    branch = "master"
 
 }
