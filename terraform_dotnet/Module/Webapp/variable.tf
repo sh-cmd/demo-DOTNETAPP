@@ -1,6 +1,6 @@
 variable "appservicename" {}
 
-variable "app_name" {}
+variable "azurerm_app_service_plan" {}
 
 variable "rg_name" {}
 
