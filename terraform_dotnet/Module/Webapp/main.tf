@@ -24,5 +24,6 @@ resource "azurerm_app_service" "example" {
   source_control {
     repo_url = "https://github.com/sh-cmd/demo-DOTNETAPP.git"
     branch = "master"
+  }
 
 }
