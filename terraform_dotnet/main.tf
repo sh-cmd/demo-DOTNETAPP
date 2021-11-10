@@ -11,8 +11,8 @@ module "Webapp" {
     depends_on = [
       module.Resource_group
     ]
-    app_name  = var.appservicename
+    appservicename  = var.appservicename
     location  = var.location
     rg_name  = var.rg_name
-    appservicename  = var.appservicename
+    azurerm_app_service_plan  = var.azurerm_app_service_plan
 }
