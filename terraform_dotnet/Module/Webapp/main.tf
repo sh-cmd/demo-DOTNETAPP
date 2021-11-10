@@ -19,6 +19,7 @@ resource "azurerm_app_service" "example" {
 
   site_config {
     dotnet_framework_version = "v5.0"
+    scm_type                 = "GitHub"
   }
 
 }
