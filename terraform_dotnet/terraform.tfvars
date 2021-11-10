@@ -1,4 +1,4 @@
-rg_name = "rs"
+rg_name = "dotnet"
 location = "northeurope"
-app_name = "DatabaseDeploy"
+app_name = "giitdotnetkaholo1"
 appservicename = "Webappforpractise123"
