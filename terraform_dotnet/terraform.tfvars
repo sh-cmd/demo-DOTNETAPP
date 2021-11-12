@@ -1,4 +1,4 @@
 rg_name = "dotnet"
-location = "westus"
+location = "eastus"
 azurerm_app_service_plan = "giitdotnetkaholo"
 appservicename = "giitdotnetkaholo1"
